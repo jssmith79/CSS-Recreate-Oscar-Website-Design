@@ -1,0 +1,37 @@
+
+
+body {
+    background-color: teal;
+    font-family: Times New Roman,serif;
+}
+header {
+    color:aliceblue;
+}
+nav {
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+
+li {
+    float: left;
+    display: block;
+    padding: 8px;
+    background-color: teal;
+}
+
+.info-submit {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px solid darkslategray;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+
+}
